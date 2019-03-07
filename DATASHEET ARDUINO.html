@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://components101.com/microcontrollers/arduino-uno -->
+<html lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="js translated-ltr skrollr skrollr-desktop" style="transform: none;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    
+<meta name="title" content="Arduino Uno Pin Diagram, Specifications, Pin Configuration &amp; Programming">
+<meta name="description" content="Find Arduino uno pin diagram, pin configuration, technical specifications and features, How to work with Arduino and getting started with Arduino Programming">
+<meta name="abstract" content="Arduino Uno Pinout">
+<meta name="keywords" content="arduino uno pinout, arduino uno pin configuration, technical specifications, arduino uno datasheet, how to work with arduino, programming">
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="https://components101.com/sites/default/files/icon.ico" type="image/vnd.microsoft.icon">
+<link rel="canonical" href="https://components101.com/microcontrollers/arduino-uno">
+<link rel="shortlink" href="https://components101.com/node/122">
+
+    
+    <title>Arduino Uno Pin Diagram, Especificaciones, Configuración de Pin y Programación</title>
+    <link rel="stylesheet" href="./DATASHEET ARDUINO_files/css_FX2-1Miow5UpXWSjueBzZxJS0b_K8FWK2a3Dt1yg7Qk.css" media="all">
+<link rel="stylesheet" href="./DATASHEET ARDUINO_files/css_eWmbbi3frMJPauCYHygIVEjcDmNqivacE1SJjDW017s.css" media="all">
+<link rel="stylesheet" href="./DATASHEET ARDUINO_files/css" media="all">
+<link rel="stylesheet" href="./DATASHEET ARDUINO_files/css(1)" media="all">
+<link rel="stylesheet" href="./DATASHEET ARDUINO_files/css_QrxQjdpx9YphCJPfMJeGRtXD3lAYwE9Ibmkp1rKG2Ik.css" media="all">
+
+    <script async="" src="./DATASHEET ARDUINO_files/saved_resource" data-sumo-site-id="d83d4af71f6bb49c44af760187383f433b919a2e9b0099c84a51c04ef4126e82"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/122","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"cookieconsent":{"link":"\/cookie-policy","path":"\/","expiry":"365","target":"_self","domain":".components101.com","markup":"\u003Cdiv class=\u0022cc_banner cc_container cc_container--open\u0022\u003E\n    \u003Ca href=\u0022#null\u0022 data-cc-event=\u0022click:dismiss\u0022 target=\u0022_blank\u0022 class=\u0022cc_btn cc_btn_accept_all\u0022\u003EGot it!\u003C\/a\u003E\n    \u003Cp class=\u0022cc_message\u0022\u003EThis website uses cookies to ensure you get the best experience on our website \u003Ca data-cc-if=\u0022options.link\u0022 target=\u0022_self\u0022 class=\u0022cc_more_info\u0022 href=\u0022\/cookie-policy\u0022\u003EMore info\u003C\/a\u003E\u003C\/p\u003E\n    \u003Ca class=\u0022cc_logo\u0022 target=\u0022_blank\u0022 href=\u0022http:\/\/silktide.com\/cookieconsent\u0022\u003ECookie Consent plugin for the EU cookie law\u003C\/a\u003E\n\u003C\/div\u003E\n","container":null,"theme":false},"statistics":{"data":{"nid":"122"},"url":"\/core\/modules\/statistics\/statistics.php"},"gavias_blockbuilder":{"url_edit":"\/admin\/structure\/gavias_blockbuilder\/edit\/-----"},"ajaxTrustedUrl":{"\/search\/node":true},"layzy_load":"on","gavias_load_ajax_view":"\/custom\/gavias_hook\/ajax_view","user":{"uid":0,"permissionsHash":"098d2cb77f8ea881a607466b769ba5ec671ead1c1012234492e015cec6a7fb99"}}</script>
+
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="./DATASHEET ARDUINO_files/js_XHCLVROf-Jntv1XLogNRmNUNTmgGtEhT2YofPFH5dcI.js.descarga"></script>
+
+    
+    
+
+    <link rel="stylesheet" href="./DATASHEET ARDUINO_files/custom.css" media="screen">
+    <link rel="stylesheet" href="./DATASHEET ARDUINO_files/update.css" media="screen">
+    
+    
+
+          <style class="customize"> .main-menu, ul.gva_menu{background: #c62020!important;} .main-menu ul.gva_menu > li > a{color: #ffffff!important;} .main-menu ul.gva_menu > li > a:hover{color: #e3e3e3!important;}#footer .footer-center{color: #ababab !important;}#footer .footer-center ul.menu > li a::after, .footer a{color: #999191!important;} .copyright{color: #8c8c8c !important;}.copyright a{color: $customize['copyright_color_link'] ?>!important;}</style>
+    
+     
+	 
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./DATASHEET ARDUINO_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-105698825-1');
+</script>
+
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+
+
+  <style id="theia-sticky-sidebar-stylesheet-TSS">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style><link type="text/css" rel="stylesheet" charset="UTF-8" href="./DATASHEET ARDUINO_files/translateelement.css"></head>
+    <body class="layout-no-sidebars not-preloader boxed path-node node--type-blog-post" style="display: block; transform: none;"><div class="cc_banner-wrapper "><div class="cc_banner cc_container cc_container--open">
+    <a href="https://components101.com/microcontrollers/arduino-uno#null" data-cc-event="click:dismiss" target="_blank" class="cc_btn cc_btn_accept_all"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">¡Lo tengo!</font></font></a>
+    <p class="cc_message"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web </font></font><a data-cc-if="options.link" target="_self" class="cc_more_info" href="https://components101.com/cookie-policy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Más información</font></font></a></p>
+    <a class="cc_logo" target="_blank" href="http://silktide.com/cookieconsent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cookie Consent plugin para la ley de cookies de la UE</font></font></a>
+</div>
+</div>
+    <a href="https://components101.com/microcontrollers/arduino-uno#main-content" class="visually-hidden focusable"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Saltar al contenido principal
+    </font></font></a>
+    
+    <div class="body-page" style="transform: none;">
+	    	    <header id="header" class="header-v3">
+  
+  <div class="topbar">
+  <div class="container">
+    <div class="row">
+      
+      <div class="topbar-left col-sm-6 col-xs-12 hidden-xs">
+                    <div>
+    <nav role="navigation" aria-labelledby="-menu" class="block block-menu navigation menu--mobile-menu---top-menu">
+          
+  
+  <h2 class="visually-hidden block-title" id="-menu"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Menu principal</font></font></span></h2>
+  
+  <div class="block-content">
+                 
+              <ul class="gva_menu">
+        
+            <li class="menu-item">
+        <a href="https://components101.com/about-us" data-drupal-link-system-path="node/117"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre nosotros</font></font></a>
+        
+      </li>
+    
+            <li class="menu-item">
+        <a href="https://components101.com/contact" data-drupal-link-system-path="contact"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></a>
+        
+      </li>
+        </ul>
+  
+
+
+        </div>  
+</nav>
+
+  </div>
+
+              </div>
+
+      <div class="topbar-right col-sm-6 col-xs-12">
+        <div class="social-list">
+                      <a href="https://facebook.com/components101" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
+           
+                      <a href="https://twitter.com/components101" rel="nofollow" target="_blank"><i class="fa fa-twitter-square"></i></a>
+           
+           
+           
+           
+           
+                      <a href="https://pinterest.com/components101" rel="nofollow" target="_blank"><i class="fa fa-pinterest"></i></a>
+           
+                      <a href="https://plus.google.com/+Components101/" rel="nofollow" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+           
+           
+            
+            
+        </div>  
+      </div>
+    </div>
+  </div>  
+</div>
+
+    <div class="sticky-wrapper" style=""><div class="header-bottom gv-sticky-menu">
+      <div class="main-menu">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-2 col-md-2 col-xs-5">
+                                    <div>
+    <div class="clearfix site-branding block block-system block-system-branding-block no-title">
+  
+    
+        <a href="https://components101.com/" title="Casa" rel="home" class="site-branding-logo">
+               <img src="./DATASHEET ARDUINO_files/logo.png" alt="Casa">
+        
+    </a>
+    </div>
+
+  </div>
+
+                    
+              </div>
+              <div class="col-lg-10 col-md-10 col-xs-7 area-main-menu">
+                <div class="area-inner menu-hover">
+                  <div class="gva-offcanvas-inner">
+                    <div class="close-offcanvas hidden-lg hidden-md"><a><i class="fa fa-times"></i></a></div>
+                                            <div>
+    <nav role="navigation" aria-labelledby="-menu" class="block block-menu navigation menu--main">
+          
+  
+  <h2 class="visually-hidden block-title" id="-menu"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Navegación Principal</font></font></span></h2>
+  
+  <div class="block-content">
+                 
+<div class="gva-navigation">
+
+              <ul class="clearfix gva_menu gva_menu_main">
+                                      <li class="menu-item">
+        <a href="https://components101.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Casa
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/latest-news"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Noticias
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/articles"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Artículos
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item menu-item--collapsed">
+        <a href="https://components101.com/ics"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    ICs
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item menu-item--expanded">
+        <a href="https://components101.com/microcontrollers/arduino-uno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Pasivo
+                      </font></font><span class="icaret nav-plus nav-minus fa fa-angle-down"></span>
+            
+        </a>
+          
+                                <ul class="menu sub-menu">
+                                      <li class="menu-item">
+        <a href="https://components101.com/capacitors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Condensadores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/diodes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Diodos
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/resistors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Resistencias
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/switches"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Interruptores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/transformers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Transformadores
+            
+        </font></font></a>
+          
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item menu-item--expanded">
+        <a href="https://components101.com/microcontrollers/arduino-uno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Poder
+                      </font></font><span class="icaret nav-plus nav-minus fa fa-angle-down"></span>
+            
+        </a>
+          
+                                <ul class="menu sub-menu">
+                                      <li class="menu-item">
+        <a href="https://components101.com/transistors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Transistores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/igbt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    IGBT
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/mosfets"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    MOSFET
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/triacs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    TRIAC
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/optocouplers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Optoacopladores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/regulators"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Reguladores
+            
+        </font></font></a>
+          
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item menu-item--expanded">
+        <a href="https://components101.com/microcontrollers/arduino-uno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Incrustado
+                      </font></font><span class="icaret nav-plus nav-minus fa fa-angle-down"></span>
+            
+        </a>
+          
+                                <ul class="menu sub-menu">
+                                      <li class="menu-item">
+        <a href="https://components101.com/microcontrollers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Microcontroladores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/sensors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Sensores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/displays"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Muestra
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/wireless"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Inalámbrico
+            
+        </font></font></a>
+          
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item menu-item--expanded">
+        <a href="https://components101.com/microcontrollers/arduino-uno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Actuadores
+                      </font></font><span class="icaret nav-plus nav-minus fa fa-angle-down"></span>
+            
+        </a>
+          
+                                <ul class="menu sub-menu">
+                                      <li class="menu-item">
+        <a href="https://components101.com/motors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Motores
+            
+        </font></font></a>
+          
+              </li>
+        </ul>
+  
+              </li>
+                                  <li class="menu-item menu-item--expanded">
+        <a href="https://components101.com/microcontrollers/arduino-uno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Más..
+                      </font></font><span class="icaret nav-plus nav-minus fa fa-angle-down"></span>
+            
+        </a>
+          
+                                <ul class="menu sub-menu">
+                                      <li class="menu-item">
+        <a href="https://components101.com/connectors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Conectores
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/modules2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Módulos
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/batteries"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Baterias
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/cables"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Cables
+            
+        </font></font></a>
+          
+              </li>
+                                  <li class="menu-item">
+        <a href="https://components101.com/misc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Misceláneo
+            
+        </font></font></a>
+          
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+</div>
+
+        </div>  
+</nav>
+
+  </div>
+
+                      
+                                      </div>
+                  
+                  <div id="menu-bar" class="menu-bar mobile hidden-lg hidden-md">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                  </div>
+
+                                      <div class="menu-another hidden-xs hidden-sm">
+                      <div id="menu-bar-another" class="menu-bar">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                      </div>
+                      <div class="content-inner">
+                          <div>
+    <nav role="navigation" aria-labelledby="block-gavias-kama-account-menu-menu" id="block-gavias-kama-account-menu" class="block block-menu navigation menu--account">
+          
+  
+  <h2 class="visually-hidden block-title" id="block-gavias-kama-account-menu-menu"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Menú de cuenta de usuario</font></font></span></h2>
+  
+  <div class="block-content">
+                 
+              <ul class="gva_menu">
+        
+            <li class="menu-item">
+        <a href="https://components101.com/user/login" data-drupal-link-system-path="user/login"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar sesión</font></font></a>
+        
+      </li>
+    
+            <li class="menu-item">
+        <a href="https://components101.com/user/register" data-drupal-link-system-path="user/register"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registro</font></font></a>
+        
+      </li>
+        </ul>
+  
+
+
+        </div>  
+</nav>
+
+  </div>
+
+                      </div>
+                    </div>  
+                  
+                                      <div class="gva-search-region search-region">
+                      <span class="icon"><i class="fa fa-search"></i></span>
+                      <div class="search-content">
+                        <a class="close"><i class="fa fa-times"></i></a> 
+                        <div class="content-inner"> 
+                            <div>
+    <div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" role="search">
+  
+    
+    <div class="content container-inline">
+        <form action="https://components101.com/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buscar</font></font></label>
+        <input title="Ingresa los términos que deseas buscar." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search">
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input class="search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Buscar"></font></font>
+</div>
+
+</form>
+
+  
+  </div>
+</div>
+
+  </div>
+
+                        </div>
+                      </div>  
+                    </div>
+                                   
+                </div>   
+              </div>
+           </div>
+        </div>
+      </div>
+    </div></div>
+   
+</header>
+<div style="background-color: #F5F5F5; padding-top: 20px; padding-bottom: 20px;"> 
+<script async="" src="./DATASHEET ARDUINO_files/f.txt"></script>
+<!-- Components101_Leaderboard -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4104019148699772" data-ad-slot="7173597102" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>	
+   
+ 
+
+
+<div class="clearfix"></div>
+
+
+<div class="clearfix"></div>
+
+	<div role="main" class="main main-page" style="transform: none;">	
+		<div id="content" class="content content-full" style="transform: none;">
+			<div class="container" style="transform: none;">	
+				
+<div class="content-main-inner" style="transform: none;">
+	<div class="row" style="transform: none;">
+		
+					
+						 				 		
+							
+       
+
+		<div id="page-main-content" class="main-content col-xs-12 col-md-8 sb-r ">
+
+			<div class="main-content-inner">
+				
+				
+									<div class="content-main">
+						  <div>
+    
+  <div id="block-gavias-kama-content" class="block block-system block-system-main-block no-title">
+  
+    
+      <div class="content block-content">
+      
+<!-- Start Display article for teaser page -->
+<!-- Start Display article for detail page -->
+
+<article data-history-node-id="122" role="article" about="/microcontrollers/arduino-uno" class="node node-detail node--type-blog-post node--view-mode-full clearfix">
+  <div class="post-block article-detail">
+      
+    <div class="post-thumbnail post-">
+              
+        
+    </div>
+
+    <div class="post-content">
+      <div></div>
+        
+           <h1 class="post-title"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Uno</font></font></span>
+</h1>
+                 
+<div class="post-meta margin-bottom-10">
+<span class="post-created"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">28 de febrero de 2018 </font></font></span><span class="space"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;-&nbsp; </font></font></span><span class="post-comment"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 comentarios</font></font></span>
+</div>
+      
+              <div class="node__meta hidden">
+          
+          <span>
+            Submitted by <span><span lang="" about="/user/1" typeof="schema:Person" property="schema:name" datatype="">admin</span></span>
+ on 28 February 2018          </span>
+          
+        </div>
+      
+	  
+	      <div class="gallery-wrap">
+    <div id="bk-gallery-slider" class="flexslider">
+      <ul class="slides" style="display:inline-flex;">
+	  
+   <ul style="border-right: 3px solid #EDEEE9;">
+        
+        							 <a href="./DATASHEET ARDUINO_files/Arduino-Uno-Board.jpg" class="colorbox cboxElement" data-colorbox-gallery="gallery-beforeafter" title="Arduino Uno" data-source="/sites/default/files/components/Arduino-Uno-Board.jpg" target="_blank"> <img width="390px" src="./DATASHEET ARDUINO_files/Arduino-Uno-Board.jpg" class="" alt="Arduino Uno"></a>
+      </ul>
+              <ul>
+        
+        							 <a class="colorbox cboxElement" data-colorbox-gallery="gallery-beforeafter" title="Arduino Uno Pin Diagram" data-source="/sites/default/files/component_pin/Arduino-Uno-Pin-Diagram.png" href="./DATASHEET ARDUINO_files/Arduino-Uno-Pin-Diagram.png" target="_blank"><img width="390px" src="./DATASHEET ARDUINO_files/Arduino-Uno-Pin-Diagram.png" class="" alt="Arduino Uno Pin Diagram"></a>
+      </ul>
+       </ul>
+	  <ul class="slides" style="display:inline-flex;">
+	  <ul style="width: 398px; height: 40px; background-color: #EDEEE9; padding-top:8px; margin-left: -35px;">
+	  			<center><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Uno</font></font></b></center>
+
+	  </ul>
+	  <ul style="width: 398px; height: 40px; background-color: #EDEEE9; padding-top:8px; margin-left: -35px;">
+	  			<center> <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Uno Pin Diagram </font></font></b></center>
+
+	  </ul>
+	  </ul>
+	</div>
+	</div>
+	<p style="font-size: 10px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[Haga click en la imagen para aumentar su tamaño]</font></font></p>
+	
+	<script async="" src="./DATASHEET ARDUINO_files/f.txt"></script>
+<!-- Components101_Link_Ad -->
+<ins class="adsbygoogle" style="display:inline-block;width:200px;height:90px" data-ad-client="ca-pub-4104019148699772" data-ad-slot="9986938689"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	
+      <div class="node__content clearfix">
+        
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Descripción del Pin</font></font></b></h3>
+
+<table class="MsoTableGrid" style="border-collapse:collapse; border:solid black 1.0pt"><tbody><tr><td style="width:95.4pt; border:solid black 1.0pt" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoría de Pin</font></font></b></span></p>
+			</td>
+			<td style="width:103.5pt; border:solid black 1.0pt; border-left:none" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nombre del pin</font></font></b></span></p>
+			</td>
+			<td style="width:279.9pt; border:solid black 1.0pt; border-left:none" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalles</font></font></b></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Poder</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vin, 3.3V, 5V, GND</font></font></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vin: voltaje de entrada a Arduino cuando se utiliza una fuente de alimentación externa.</font></font></span></p>
+
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5 V: fuente de alimentación regulada utilizada para alimentar el microcontrolador y otros componentes de la placa.</font></font></p>
+
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3.3V: 3.3V de alimentación generada por el regulador de voltaje a bordo. </font><font style="vertical-align: inherit;">El consumo de corriente máximo es de 50 mA.</font></font></span></p>
+
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GND: clavijas de tierra.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reiniciar</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reiniciar</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reinicia el microcontrolador.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pasadores analógicos</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A0 - A5</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Se utiliza para proporcionar una entrada analógica en el rango de 0-5 V</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pines de entrada / salida</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pines digitales 0 - 13</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Puede ser utilizado como pines de entrada o salida.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">De serie</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0 (Rx), 1 (Tx)</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Se utiliza para recibir y transmitir datos serie TTL.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Interrupciones externas</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2, 3</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para desencadenar una interrupción.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PWM</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3, 5, 6, 9, 11</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Proporciona salida PWM de 8 bits.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPI</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10 (SS), 11 (MOSI), 12 (MISO) y 13 (SCK)</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Utilizado para la comunicación SPI.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LED incorporado</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">13</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para encender el LED incorporado.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TWI</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A4 (SDA), A5 (SCA)</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Utilizado para la comunicación TWI.</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:95.4pt; border:solid black 1.0pt; border-top:none" width="127">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AREF</font></font></span></p>
+			</td>
+			<td style="width:103.5pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="138">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AREF</font></font></span></p>
+			</td>
+			<td style="width:279.9pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="373">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para proporcionar tensión de referencia para la tensión de entrada.</font></font></span></p>
+			</td>
+		</tr></tbody></table><p>&nbsp;</p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Especificaciones técnicas de Arduino Uno</font></font></b></h3>
+
+<table class="MsoTableGrid" style="border-collapse:collapse; border:solid black 1.0pt"><tbody><tr><td style="width:149.4pt; border:solid black 1.0pt" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Microcontrolador</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border:solid black 1.0pt; border-left:none" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><a href="https://components101.com/microcontrollers/atmega328p-pinout-features-datasheet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ATmega328P</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Microcontrolador AVR de 8 bits</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tensión de funcionamiento</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5V</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Voltaje de entrada recomendado</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7-12V</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Límites de voltaje de entrada</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6-20V</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clavijas de entrada analógica</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 (A0 - A5)</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pernos digitales de E / S</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">14 (de los cuales 6 proporcionan salida PWM)</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Corriente DC en los pines I / O</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">40 mA</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Corriente DC en 3.3V Pin</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">50 mA</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Memoria flash</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">32 KB (se utilizan 0.5 KB para el cargador de arranque)</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SRAM</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 KB</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EEPROM</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 KB</font></font></span></p>
+			</td>
+		</tr><tr><td style="width:149.4pt; border:solid black 1.0pt; border-top:none" width="199">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Frecuencia (velocidad del reloj)</font></font></span></p>
+			</td>
+			<td style="width:329.4pt; border-top:none; border-left:none; border-bottom:solid black 1.0pt; border-right:solid black 1.0pt" width="439">
+			<p style="margin-bottom:.0001pt; padding:0in 5.4pt 0in 5.4pt"><span style="line-height:normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16 MHz</font></font></span></p>
+			</td>
+		</tr></tbody></table><p>&nbsp;</p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Otros tableros Arduino</font></font></b></h3>
+
+<p><a href="https://components101.com/microcontrollers/arduino-nano"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Nano</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><a href="https://components101.com/microcontrollers/arduino-pro-mini"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Pro Mini</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , Arduino Mega, Arduino Due, Arduino Leonardo</font></font></p>
+
+<p>&nbsp;</p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visión general</font></font></b></h3>
+
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Uno</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> es un tablero para microcontroladores basado en un microcontrolador ATmega328P de 8 bits. </font><font style="vertical-align: inherit;">Junto con ATmega328P, consta de otros componentes como el oscilador de cristal, la comunicación en serie, el regulador de voltaje, etc., para soportar el microcontrolador. </font><font style="vertical-align: inherit;">Arduino Uno tiene 14 pines de entrada / salida digital (de los cuales 6 pueden usarse como salidas PWM), 6 pines de entrada analógica, una conexión USB, un conector de barril de alimentación, una cabecera ICSP y un botón de reinicio.</font></font></p>
+
+<p>&nbsp;</p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cómo utilizar el tablero Arduino</font></font></b></h3>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Los 14 pines de entrada / salida digital se pueden usar como pines de entrada o salida usando las funciones pinMode (), digitalRead () y digitalWrite () en la programación de arduino. </font><font style="vertical-align: inherit;">Cada pin funciona a 5 V y puede proporcionar o recibir una corriente máxima de 40 mA, y tiene una resistencia de arranque interna de 20 a 50 KOhms que se desconecta de forma predeterminada. </font><font style="vertical-align: inherit;">De estos 14 pines, algunos pines tienen funciones específicas como se enumeran a continuación:</font></font></p>
+
+<ul><li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Los pines serie 0 (Rx) y 1 (Tx): los</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> pines Rx y Tx se utilizan para recibir y transmitir datos seriales TTL. </font><font style="vertical-align: inherit;">Se conectan con el chip serie ATmega328P USB a TTL correspondiente.</font></font></li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pines de interrupción externa 2 y 3:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> estos pines se pueden configurar para activar una interrupción en un valor bajo, un flanco ascendente o descendente, o un cambio en el valor.</font></font></li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pines PWM 3, 5, 6, 9 y 11:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Estos pines proporcionan una salida PWM de 8 bits mediante el uso de la función analogWrite ().</font></font></li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Patillas SPI 10 (SS), 11 (MOSI), 12 (MISO) y 13 (SCK):</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> estas patillas se utilizan para la comunicación SPI.</font></font></li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LED incorporado Pin 13:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> este pin está conectado con un LED incorporado, cuando el pin 13 está ALTO - el LED está encendido y cuando el pin 13 está BAJO, está apagado.</font></font></li>
+</ul><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Junto con 14 pines digitales, hay 6 pines de entrada analógica, cada uno de los cuales proporciona 10 bits de resolución, es decir, 1024 valores diferentes. </font><font style="vertical-align: inherit;">Miden de 0 a 5 voltios, pero este límite puede aumentarse utilizando el pin AREF con la función de referencia analógica (). &nbsp;</font></font></p>
+
+<ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El pin analógico 4 (SDA) y el pin 5 (SCA) también se utilizan para la comunicación TWI mediante la biblioteca Wire.</font></font></li>
+</ul><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Uno tiene un par de otros pines como se explica a continuación:</font></font></p>
+
+<ul><li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AREF: se</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> utiliza para proporcionar voltaje de referencia para entradas analógicas con función de referencia analógica ().</font></font></li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Restablecer Pin:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Haciendo este pin BAJO, reinicia el microcontrolador.</font></font></li>
+</ul><p>&nbsp;</p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comunicación </font></font></b></h3>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino se puede utilizar para comunicarse con una computadora, otra placa Arduino u otros microcontroladores. </font><font style="vertical-align: inherit;">El microcontrolador ATmega328P proporciona comunicación serial UART TTL (5V) que se puede hacer usando el pin digital 0 (Rx) y el pin digital 1 (Tx). </font><font style="vertical-align: inherit;">Un ATmega16U2 en la placa canaliza esta comunicación serie a través de USB y aparece como un puerto virtual para el software en la computadora. </font><font style="vertical-align: inherit;">El firmware ATmega16U2 utiliza los controladores COM USB estándar, y no se necesita un controlador externo. </font><font style="vertical-align: inherit;">Sin embargo, en Windows, se requiere un archivo .inf. </font><font style="vertical-align: inherit;">El software Arduino incluye un monitor en serie que permite enviar datos textuales simples hacia y desde la placa Arduino. </font><font style="vertical-align: inherit;">Hay dos LED RX y TX en la placa arduino que parpadean cuando los datos se transmiten a través del chip USB a serie y la conexión USB a la computadora (no para comunicación en serie en los pines 0 y 1). </font><font style="vertical-align: inherit;">Una biblioteca de SoftwareSerial permite la comunicación en serie en cualquiera de los pines digitales del Uno. </font><font style="vertical-align: inherit;">El ATmega328P también admite la comunicación I2C (TWI) y SPI. </font><font style="vertical-align: inherit;">El software Arduino incluye una biblioteca Wire para simplificar el uso del bus I2C.</font></font></p>
+
+<p>&nbsp;</p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino Uno a ATmega328 Pin Mapping</font></font></b></h3>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cuando se utiliza el chip ATmega328 en lugar de Arduino Uno, o viceversa, la siguiente imagen muestra la asignación de pines entre los dos.</font></font></p>
+
+<p><img alt="Arduino Uno ATmega328P Pin Mapping" data-entity-type="file" data-entity-uuid="37b4bfb5-cc5d-4a08-a366-75145cfe7932" src="./DATASHEET ARDUINO_files/Arduino-Uno-ATmega328P-Pin-Mapping1.png"></p>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Software</font></font></b></h3>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Se requiere Arduino IDE (Entorno de desarrollo integrado) para programar la placa Arduino Uno. </font></font><a href="https://www.arduino.cc/en/Main/Software"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Descárgalo aquí</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p>
+
+<h3>&nbsp;</h3>
+
+<h3><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Programación Arduino</font></font></b></h3>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Una vez que arduino IDE esté instalado en la computadora, conecte la tarjeta con la computadora usando un cable USB. </font><font style="vertical-align: inherit;">Ahora abra el IDE arduino y elija la placa correcta seleccionando Herramientas&gt; Placas&gt; Arduino / Genuino Uno, y elija el Puerto correcto seleccionando Herramientas&gt; Puerto. </font><font style="vertical-align: inherit;">Arduino Uno está programado usando el lenguaje de programación Arduino basado en Wiring. </font><font style="vertical-align: inherit;">Para comenzar con la placa Arduino Uno y hacer parpadear el LED incorporado, cargue el código de ejemplo seleccionando Archivos&gt; Ejemplos&gt; Conceptos básicos&gt; Parpadeo. </font><font style="vertical-align: inherit;">Una vez que el código de ejemplo (que también se muestra a continuación) se haya cargado en su IDE, haga clic en el botón 'subir' que se encuentra en la barra superior. </font><font style="vertical-align: inherit;">Una vez que finaliza la carga, debería ver parpadear el LED incorporado del Arduino. </font><font style="vertical-align: inherit;">A continuación se muestra el código de ejemplo para parpadear:</font></font></p>
+
+<pre><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">// la función de configuración se ejecuta una vez al presionar reiniciar o encender la placa</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+configuración vacía () {</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  // inicializa el pin digital LED_BUILTIN como una salida.</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  pinMode (LED_BUILTIN, SALIDA);</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+}</font></font><font></font>
+<font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+// la función de bucle se ejecuta una y otra vez para siempre</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+bucle de vacío () {</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  digitalWrite (LED_BUILTIN, ALTO); </font><font style="vertical-align: inherit;">// enciende el LED (ALTO es el nivel de voltaje)</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  retraso (1000); </font><font style="vertical-align: inherit;">// Espera un segundo</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  digitalWrite (LED_BUILTIN, BAJO); </font><font style="vertical-align: inherit;">// apaga el LED haciendo que la tensión sea BAJA</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+  retraso (1000); </font><font style="vertical-align: inherit;">// Espera un segundo</font></font><font></font><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+}</font></font></pre>
+
+<p>&nbsp;</p>
+
+<h3><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aplicaciones</font></font></strong></h3>
+
+<ul><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prototipado de productos y sistemas electrónicos.</font></font></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Múltiples proyectos de bricolaje.</font></font></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fácil de usar para principiantes y creadores de nivel.</font></font></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Proyectos que requieren múltiples interfaces de E / S y comunicaciones.</font></font></li>
+</ul><p>&nbsp;</p>
+
+<h3><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Modelo Arduino Uno 2D</font></font></strong></h3>
+
+<p><strong><img alt="Arduino Uno Dimensiones" data-entity-type="file" data-entity-uuid="d264151a-5d98-4cd4-9bd4-62397579e9f8" src="./DATASHEET ARDUINO_files/Arduino-Uno-Dimensions.png"></strong></p>
+</div>
+      
+      </div>
+
+<script async="" src="./DATASHEET ARDUINO_files/f.txt"></script>
+<!-- Components101_Boombox_Bottom -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-4104019148699772" data-ad-slot="6274162917"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+	  <!-- custom added to show datasheet --> 
+	         <div style="padding: 10px; border: 1px solid #C2C4C5;">
+<center>
+<span style="font-size:20px;"><strong>
+  <div class="field field--name-field-component-datasheet field--type-file field--label-above">
+    <div class="field__label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hoja de datos del componente</font></font></div>
+              <div class="field__item"><span class="file file--mime-application-pdf file--application-pdf"><a href="https://components101.com/sites/default/files/component_datasheet/Arduino%20Uno%20Datasheet.pdf" type="application/pdf; length=384771" title="Arduino Uno Datasheet.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hoja de datos de Arduino Uno</font></font></a></span>
+</div>
+          </div>
+</strong></span>
+</center>
+
+</div>
+	
+      <div class="post-tags clearfix">
+	  <div class="content block-content">
+<div><div class="tags-list js-view-dom-id-ff96c674ec923312aca7eb3b0a461878855b595043911b46a04f592f71423738" style="font-size: 17px; font-weight: 400px; margin-left: -50px;">
+<div class="item-list">
+<ul>
+<div class="views-field views-field-name" style="margin-left: 10px;"><h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Etiquetas</font></font></h3><span class="field-content">
+        
+      <div class="field field--name-field-blog-tags field--type-entity-reference field--label-hidden field__items">
+              <div class="field__item"><a href="https://components101.com/tags/arduino" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino</font></font></a></div>
+          </div>
+  </span>
+		</div></ul>
+</div>
+</div>
+</div></div>
+      </div>  
+
+      <div class="related-posts margin-top-30">
+        
+		<script async="" src="./DATASHEET ARDUINO_files/f.txt"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-4104019148699772" data-ad-slot="4060781436"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+		
+      </div>
+	  <br>
+	<h2 class="block-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comentarios</font></font></h2>
+	
+	<ul class="links inline"><li class="comment-forbidden"><a href="https://components101.com/user/login?destination=/microcontrollers/arduino-uno%23comment-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicia sesión</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> o </font></font><a href="https://components101.com/user/register?destination=/microcontrollers/arduino-uno%23comment-form"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">regístrate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> para publicar comentarios.</font></font></li></ul> 
+
+    </div>
+
+  </div>
+  
+  <section>
+  
+  
+
+  
+</section>
+
+  <br>
+
+</article>
+
+<!-- End Display article for detail page -->
+
+
+
+    </div>
+  </div>
+
+  </div>
+
+					</div>
+				
+							</div>
+
+		</div>
+
+		<!-- Sidebar Left -->
+				<!-- End Sidebar Left -->
+
+		<!-- Sidebar Right -->
+					
+							 
+
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 sidebar sidebar-right theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+				
+			<div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; top: 0px; left: 970.6px;"><div class="sidebar-inner">
+					  <div>
+    <div class="block block-block-content block-block-content74544e06-3cb4-42b5-a0e7-50e0df100d8a no-title">
+  
+    
+      <div class="content block-content">
+      
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-block-re-sidebar-widgets-block-on-bottom-right-box-blog-recent-posts">
+  
+      <h2 class="block-title"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">últimas publicaciones</font></font></span></h2>
+    
+      <div class="content block-content">
+      <div><div class="js-view-dom-id-cbd3c20eb4404203ead2b9e5bc93cf6d10fa929bf9f183560ee8d0f3a059bb47">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="gva-view-grid">
+   
+  
+  <div class="gva-view-grid-inner lg-block-grid-1 md-block-grid-1 sm-block-grid-1 xs-block-grid-1">
+
+            <div class="item-columns">
+          <div>  <a href="https://components101.com/transistors/mpsa18-npn-low-noise-transistor"><img src="./DATASHEET ARDUINO_files/MPSA18.jpg" width="620" height="420" alt="Transistor MPSA18" title="Transistor MPSA18" typeof="foaf:Image" data-src="/sites/default/files/styles/image_620x420/public/components/MPSA18.jpg?itok=6y_2o0-N" class="unveil-image image-loaded">
+
+</a>
+<h3><a href="https://components101.com/transistors/mpsa18-npn-low-noise-transistor" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Transistor de bajo ruido MPSA18 NPN</font></font></a></h3><hr>
+<br></div>
+        </div>
+            <div class="item-columns">
+          <div>  <a href="https://components101.com/news/high-saturation-ihsr-inductor-features-low-dcr-high-current-density-multi-phase-power-supplies"><img src="./DATASHEET ARDUINO_files/IHSR-1616AB-01.jpg" width="620" height="420" alt="IHSR-1616AB-01" title="IHSR-1616AB-01" typeof="foaf:Image" data-src="/sites/default/files/styles/image_620x420/public/components/IHSR-1616AB-01.jpg?itok=V-PAMKry" class="unveil-image image-loaded">
+
+</a>
+<h3><a href="https://components101.com/news/high-saturation-ihsr-inductor-features-low-dcr-high-current-density-multi-phase-power-supplies" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Características del inductor IHSR de alta saturación DCR bajo, alta densidad de corriente para fuentes de alimentación multifase</font></font></a></h3><hr>
+<br></div>
+        </div>
+            <div class="item-columns">
+          <div>  <a href="https://components101.com/news/microchip-sam-r30-module-low-power-wireless-sensor-nodes"><img src="./DATASHEET ARDUINO_files/SAM-R30-module.jpg" width="620" height="420" alt="Módulo Microchip SAM R30 para nodos de sensores inalámbricos de baja potencia" title="Módulo Microchip SAM R30 para nodos de sensores inalámbricos de baja potencia" typeof="foaf:Image" data-src="/sites/default/files/styles/image_620x420/public/components/SAM-R30-module.jpg?itok=Lq4sqAUO" class="unveil-image image-loaded">
+
+</a>
+<h3><a href="https://components101.com/news/microchip-sam-r30-module-low-power-wireless-sensor-nodes" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Módulo Microchip SAM R30 para nodos de sensores inalámbricos de baja potencia</font></font></a></h3><hr>
+<br></div>
+        </div>
+            <div class="item-columns">
+          <div>  <a href="https://components101.com/news/smld12wbn1w1-high-reliability-1608-size-white-chip-led"><img src="./DATASHEET ARDUINO_files/SMLD12WBN1W.jpg" width="620" height="420" alt="SMLD12WBN1W1 - LED Chip blanco de 1608 de gran confiabilidad" title="SMLD12WBN1W1 - LED Chip blanco de 1608 de gran confiabilidad" typeof="foaf:Image" data-src="/sites/default/files/styles/image_620x420/public/components/SMLD12WBN1W.jpg?itok=5pXFx9xY" class="unveil-image image-loaded">
+
+</a>
+<h3><a href="https://components101.com/news/smld12wbn1w1-high-reliability-1608-size-white-chip-led" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SMLD12WBN1W1 - LED Chip blanco de 1608 de gran confiabilidad</font></font></a></h3><hr>
+<br></div>
+        </div>
+      </div>
+    
+</div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+				</div></div></div>
+				<!-- End Sidebar Right -->
+		
+	</div>
+</div>
+
+
+			</div>
+		</div>			
+	</div>
+
+	
+
+	 
+	<footer id="footer" class="footer">
+  
+     
+   <div class="footer-center">
+      <div class="container">      
+         <div class="row">
+                          
+                                              
+              
+                                              
+              
+                                              
+              
+                                               
+
+              
+                                                             
+                              <div class="footer-4col col-lg-3 col-md-3 col-md-6 col-xs-12 column">
+                    <div>
+    <div class="block block-block-content block-block-content7c942d4c-223c-4814-a192-a118c3f7e4b8 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="logo de components101" src="./DATASHEET ARDUINO_files/logo.png"></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: left;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Components101 es un recurso dedicado a los ingenieros de diseño electrónico que cubre noticias de productos, análisis y artículos sobre los últimos componentes electrónicos.&nbsp;</font></font></p>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-4col col-lg-3 col-md-3 col-md-6 col-xs-12 column">
+                    <div>
+    <div class="block block-block-content block-block-contentc3c2b69a-960c-4195-a3e0-cc2e7101eb4f">
+  
+      <h2 class="block-title"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Links importantes</font></font></span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div>
+<div class="block block-block-content block-block-contentf68ff84d-6af0-4c49-8b85-ae338addc541 no-title" id="block-gavias-kama-linkfooter">
+<div class="content block-content">
+
+<ul class="menu">
+	<li><a href="https://components101.com/contact"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></a></li>
+	<li><a href="https://components101.com/contact/advertise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anunciar</font></font></a></li>
+	<li><a href="https://components101.com/privacy-policy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Política de privacidad</font></font></a></li>
+	<li><a href="https://components101.com/cookie-policy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Política de cookies</font></font></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-4col col-lg-3 col-md-3 col-md-6 col-xs-12 column">
+                    <div>
+    <div class="views-element-container block block-views block-views-blocktagadelic-content-block-1">
+  
+      <h2 class="block-title"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Etiquetas Populares</font></font></span></h2>
+    
+      <div class="content block-content">
+      <div><div class="js-view-dom-id-86e3ec746d4017448432dc9a16710c07a2e8aa7d96f3c121f4a4572f2ef97ce4">
+  
+  
+  
+
+  
+  
+  
+
+  
+            
+
+    <div class="views-view-grid horizontal cols-1 clearfix">
+            
+              <div class="views-row row clearfix row-1">
+        
+
+                  <div class="views-col col-1 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%;">
+            <div class="views-field views-field-field-blog-tags"><div class="field-content"><a href="https://components101.com/tags/npn-transistor" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Transistor NPN</font></font></a></div></div>
+          </div>
+              
+              </div>
+        
+          
+              <div class="views-row row clearfix row-2">
+        
+
+                  <div class="views-col col-1 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%;">
+            <div class="views-field views-field-field-blog-tags"><div class="field-content"><a href="https://components101.com/tags/power-electronics" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Electrónica de potencia</font></font></a></div></div>
+          </div>
+              
+              </div>
+        
+          
+              <div class="views-row row clearfix row-3">
+        
+
+                  <div class="views-col col-1 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%;">
+            <div class="views-field views-field-field-blog-tags"><div class="field-content"><a href="https://components101.com/tags/pnp-transistor" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Transistor PNP</font></font></a></div></div>
+          </div>
+              
+              </div>
+        
+          
+              <div class="views-row row clearfix row-4">
+        
+
+                  <div class="views-col col-1 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%;">
+            <div class="views-field views-field-field-blog-tags"><div class="field-content"><a href="https://components101.com/tags/voltage-regulator" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">regulador de voltaje</font></font></a></div></div>
+          </div>
+              
+              </div>
+        
+          
+              <div class="views-row row clearfix row-5">
+        
+
+                  <div class="views-col col-1 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%;">
+            <div class="views-field views-field-field-blog-tags"><div class="field-content"><a href="https://components101.com/tags/embedded" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Incrustado</font></font></a></div></div>
+          </div>
+              
+              </div>
+        
+          
+              <div class="views-row row clearfix row-6">
+        
+
+                  <div class="views-col col-1 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100%;">
+            <div class="views-field views-field-field-blog-tags"><div class="field-content"><a href="https://components101.com/tags/optocoupler" hreflang="en"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Optoacoplador</font></font></a></div></div>
+          </div>
+              
+              </div>
+        
+      </div>
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-4col col-lg-3 col-md-3 col-md-6 col-xs-12 column">
+                    <div>
+    <div class="block block-block-content block-block-contentd852237c-60c5-497f-ab15-65d24ec174f0">
+  
+      <h2 class="block-title"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Suscríbete a nuestro boletín</font></font></span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><!-- Begin Mailchimp Signup Form -->
+<link href="https://cdn-images.mailchimp.com/embedcode/slim-10_7.css">
+<style type="text/css">
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div>
+<form action="https://components101.us19.list-manage.com/subscribe/post?u=0c4b0b19bd4713391ecb25cd4&amp;id=a7d08e4e64" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+<div>	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+<input type="text" name="b_0c4b0b19bd4713391ecb25cd4_a7d08e4e64" tabindex="-1" value=""></div>
+    <div class="form-actions js-form-wrapper form-wrapper"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input style="background-color: #CD2122; font-size: 13px; margin-top: 8px; padding: 2px 6px;" type="submit" value="Suscribir" name="subscribe" id="edit-subscribe" class="button js-form-submit form-submit"></font></font></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup--></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+                       </div>   
+      </div>
+   </div>   
+  
+  
+      <div class="copyright">
+      <div class="container">
+        <div class="copyright-inner">
+              <div>
+    <div class="block block-block-content block-block-contentdcc92698-f200-4c2e-af9b-c5fa06bf60bd no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="text-align: center; color: white;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Copyright 2019 © Components101. </font><font style="vertical-align: inherit;">Todos los derechos reservados</font></font></div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>   
+      </div>   
+   </div>
+  <div class="return-top default hidden-xs" style="display: none;"><i class="fa fa-angle-up"></i></div>
+ <div id="gva-popup-ajax" class="clearfix"><div class="pajax-content"><a href="javascript:void(0);" class="btn-close"><i class="fa fa-times"></i></a><div class="gva-popup-ajax-content clearfix"></div></div></div>
+</footer>
+
+
+	
+</div>
+
+
+    
+    <script src="./DATASHEET ARDUINO_files/js_qZm7Swvej8i0IlKBpWE2B8EKhhyAi7OwOKcof0dNnXg.js.descarga"></script>
+
+    	<script async="">(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='d83d4af71f6bb49c44af760187383f433b919a2e9b0099c84a51c04ef4126e82';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
+	
+  
+
+<div id="cboxOverlay" style="display: none;"></div><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./DATASHEET ARDUINO_files/translate_24dp.png" width="20" height="20" alt="Google Traductor de Google"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Texto original</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Sugiere una traducción mejor</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
