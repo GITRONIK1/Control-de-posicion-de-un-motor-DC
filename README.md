@@ -1,10 +1,24 @@
 # Control-de-posicion-de-un-motor-DC
  Proyecto el cual se basa en hacer un control de posición de un motor DC mediante PID
  
+ ///////////////////////////////////////////////////////////////////////////
  
-  INDICE DE ESQUEMAS Y PROGRAMACIONES DE ARDUINO:
-    
-   
+  INDICE DE ESQUEMAS Y PROGRAMACIONES DE ARDUINO: 
+  
+///////////////////////////////////////////////////////////////////////////  
+  
+  DATASHEET  ARDUINO UNO
+  
+  HOJA DE DATOS  MICROMOTORREDUCTOR 6V
+  
+  HOJA DE DATOS  ENCODER MAGNETICO
+  
+  HOJA DE DATOS  PUENTE H
+  
+  HOJA DE DATOS  POTENCIOMETRO
+  
+ ////////////////////////////////////////////////////////////////////////
+  
   1-ESQUEMA  ENCODER CON ARDUINO   
   
   1-POGRAMCION LECTURA ENCODER 
@@ -25,3 +39,22 @@
   4-PROGRAMACION LED CON MILIS
   
   
+  5-ESQUEMA ENCODER
+  
+  5-PROGRAMACION LECTURA ENCODER CON MILIS 
+  
+  
+  6-ESQUEMA MOTOR, PUENTE H,  ENCODe 
+  
+  6-PROGRAMACION GIRO DEL MOTOR CON LECTURA ENCODER EN MILIS Y PROPORCIONAL
+  
+  
+  7- ESQUEMA MOTOR,  PUENTEH, ENCOD 
+  
+  7-PROGRAMACION GIRO DEL MOTOR CON LECTURA ENCODER EN MILIS  CON PID 
+  
+  
+  8-MOTOR ESQUEM, PUENTEH. ,ENCODER.  Y  POTENCIOMETROS
+  
+  8-PROGRAMACION GIRO MOTOR,LECTURA ENCODER EN MILISs Y PID
+   
